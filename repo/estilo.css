@@ -25,6 +25,7 @@ nav ul li a {
     color: #fff;
 }
 
+
 nav ul li a:hover {
     background-color: #555; 
 }
@@ -47,6 +48,7 @@ nav ul li a:hover {
     padding: 3em;
     border-radius: 8px;
 	font-size: 20px;
+	
 }
 .producto a {
     color: inherit;
@@ -55,7 +57,6 @@ nav ul li a:hover {
 .producto a:hover {
     color: #fff; 
 }
-
 .precio
 {
 	width:90%;
@@ -85,6 +86,75 @@ nav ul li a:hover {
     width: 200px; 
     height: auto; 
     margin: auto; 
+}
+.contacto form {
+
+    background-color: #d11b1b;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+	max-width: 400px;
+
+    width: 100%; 
+
+    margin: 20px auto; 
+
+}
+label {
+
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: #555;
+
+}
+input, textarea {
+
+    width: 90%;
+
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+input[type="number"], input[type="text"], input[type="email"] {
+
+    background-color: #f9f9f9;
+
+}
+button {
+
+    width: 100%;
+
+    padding: 10px;
+
+    background-color: #05614D;
+
+    border: none;
+
+    color: white;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+}
+
+button:hover {
+
+    background-color: #4cae4c;
+
 }
 
 .envios {
@@ -138,3 +208,4 @@ nav ul li a:hover {
     height: auto; 
     margin: auto; 
 }
+
